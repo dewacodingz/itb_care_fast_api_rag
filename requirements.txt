@@ -1,0 +1,44 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# LangChain & Ecosystem
+# langchain
+langsmith
+llmsmith[cohere,openai,qdrant,groq]==0.8.0
+openai
+groq
+qdrant-client
+cohere==5.3.2
+
+# langchain-community
+# langchain-core
+# langchain-groq
+# langchain_openai
+
+# Vectorstore
+
+# Embeddings
+sentence-transformers
+
+
+# PDF Parsing
+PyPDF  # backend for PyPDFLoader via langchain_community
+python-multipart
+
+# Environment Variables
+python-dotenv
+
+# Typing & Utilities
+pydantic
+pydantic_settings
+requests
+numpy
+pandas
+
+# Logging (optional but recommended)
+loguru
+
+# File Uploads
+aiofiles
+httpx
